@@ -1,0 +1,145 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Hey","Good day", "Whats up"],
+     "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+     "context_set": ""
+    },
+
+    {"tag": "goodbye",
+     "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day","bye"],
+     "responses": ["Sad to see you go..", "Talk to you later", "Goodbye!"],
+     "context_set": ""
+    },
+    {"tag": "food",
+        "patterns": ["Hungry", "tasty", "food", "catering", "cafe","restaurant", "canteen"],
+        "responses": ["Visit our site for info about all the delicacies we cater for you in university","https://www.youtube.com/watch?v=TmHB0GWlhl8" ],
+        "context_set": ""
+    },
+    
+    {"tag": "contact",
+        "patterns": ["contact", "not clear", "extra help", "faculty", "admission","get in touch", "call you"],
+        "responses": ["T: 1800 1212 88800 \n Email: admissions@cumail.in,\nChandigarh University \t NH-95 Chandigarh-Ludhiana Highway, Mohali, Punjab (INDIA)" ],
+        "context_set": ""
+       },
+    
+       {"tag": "social_media",
+        "patterns": ["facebook","youtube","instagram","twitter","social","social media"],
+        "response":["you can find us on all platforms, please visit https://www.cuchd.in/ for full details/queries\n You can also binge on our youtube channel here : https://www.youtube.com/user/chandigarhuniversity \nFollow us on : \n Facebook https://www.facebook.com/chandigarhuniversitygharuan/ \ntwitter : https://twitter.com/Chandigarh_uni?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor \n Instagram: https://www.instagram.com/chandigarhuniversity/?hl=en"],
+        "context_set": ""
+        
+       },
+
+ {"tag": "sports",
+     "patterns": ["sports", "cricket", "football", "badminton", "hockey","kabaddi","basketball","table tennis","skating","badminton","swimming"],
+     "responses": ["All courts are available for sports and games like a basketball court, badminton court, etc. There is a gym in the hostel. There are extreme facilities which encourages students to come up and showcase their talents."],
+     "context_set": ""
+    },
+
+    {"tag": "Library",
+        "patterns": ["books", "library", "notes", "reading", "peace place","selfstudy"],
+        "responses": ["Our University has 13 libraries - one central library and twelve libraries situated in different academic blocks with a rich collection of more than 85,000 books and 850000 of e-books. All libraries have access to e-journals and databases like ASME, IEEE, EMERELD, EBSCO, ASCE, ASTM, McGraw Hill, J-Gate, ELSEVIER, SCC ONLINE and WESTLAW International. It has an institutional membership with DELNET and British Council Library."],
+        "context_set": ""
+       },
+
+
+       {"tag": "hostel",
+        "patterns": ["hostel", "living", "room", "block", "sleep","living area", "restroom"],
+        "responses": ["Our University campus has separate hostels for boys and girls with an attached mess. All the hostels have basic amenities like water purifiers, common room, gym, salon, recreation room, mess, TV, laundry services, security, and surveillance system."],
+        "context_set": ""
+       },
+
+
+       {"tag": "medical facility",
+        "patterns": ["hospital", "fever", "ill", "injury", "medicine","chemist", "health"],
+        "responses": ["We provide the best health facilities to both our students and our faculty members.we have professional doctors in each field and provide the solution to each and every health probem.we have dispensary open 24*7 for the students." ],
+        "context_set": ""
+    },
+
+    {"tag": "placements",
+        "patterns": ["placements", "job", "work", "money", "companies","jobs", "field job"],
+        "responses": ["Placements are good and are improving year by year with big packages. The highest package offered was 36 lacs per annum. Big Tech Giants like IBM, Microsoft, Amazon and many more hire students every year. Every year more than 400+ companies come for recruiting" ],
+        "context_set": ""
+    },
+
+
+    {"tag": "infrastructure",
+        "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Hey","Good day", "Whats up"],
+        "responses": ["Infrastructure is very good and facilities provided  are also excellent. Modern Labs for the respective courses are there to facilitate students. Hostels are maintained on everyday basis. We are provided network facility with good speed in hostels."],
+        "context_set": ""
+       },
+
+
+{"tag": "events",
+     "patterns": ["functions", "programs", "activities", "extracurricular", "explore","talent", "conferences", "webinars"],
+     "responses": ["Our University manages conferences, meetings, seminars, and events related to the university students and alumni with automated scheduling, profiling, registration, routing, payments and reminders."],
+     "context_set": ""
+    },
+
+
+{"tag": "transportation",
+     "patterns": ["travel", "routeway", "roadways", "vehicle", "mobility"],
+     "responses": ["This facility is like a lifeline for the university and student safety is their biggest worry. Student bus tracking and Transportation Management System with GPS tracking and RFID technologies enable schools to efficiently manage routes, scheduling, and mileage. "],
+     "context_set": ""
+    },
+
+
+{"tag": "UG Courses for Arts Students",
+     "patterns": ["arts", "humanities", "history", "courses for arts students", "ba","geography"],
+     "responses": ["We privide various cources for Arts students provided by world class faculty. The courses are namely:- \n BBA- Bachelor of Business Administration\n BMS- Bachelor of Management Science \n BFA- Bachelor of Fine Arts \n BEM- Bachelor of Event Management \n Integrated Law Course- BA + LL.B \n BJMC- Bachelor of Journalism and Mass Communication \n BFD- Bachelor of Fashion Designing  \n BSW- Bachelor of Social Work \n BBS- Bachelor of Business Studies \nBTTM- Bachelor of Travel and Tourism Management \nAviation Courses   \nB.Sc- Interior Design \n B.Sc.- Hospitality and Hotel Administration  \nBachelor of Design (B. Design)  \nBachelor of Performing Arts \nBA in History"],
+     "context_set": ""
+    },
+
+
+
+{"tag": "UG Courses available after 12th Science:",
+     "patterns": ["science", "PCM", "PCB", "physics",],
+     "responses": ["After completing 12th with science stream, there are a variety of options available for an undergraduate course. Students who have an interest in technical learning, they can choose engineering courses and the rest can choose from the courses listed below:-\n BE/B.Tech- Bachelor of Technology\n B.Arch- Bachelor of Architecture\n BCA- Bachelor of Computer Applications\nB.Sc.- Information Technology\n B.Sc- Nursing\n  BPharma- Bachelor of Pharmacy\n  B.Sc- Interior Design\n BDS- Bachelor of Dental Surgery\n Animation, Graphics and Multimedia\n  B.Sc. – Nutrition & Dietetics\n BPT- Bachelor of Physiotherapy\n B.Sc- Applied Geology\n  BA/B.Sc. Liberal Arts\n  B.Sc.- Physics\n  B.Sc. Chemistry\n  B.Sc. Mathematics"],
+     "context_set": ""
+    },
+
+
+{"tag": "Engineering",
+     "patterns": ["PCM", "B.tech", "B.E.", "BE", "engineer"],
+     "responses": ["Science is one of the popular streams offering a wide range of technical courses. Our University is best known for it's engineering section which is provided by world class faculty.Here is the list of UG engineering courses for students who have completed their secondary education in science stream:- \n  Aeronautical Engineering  \n    Automobile Engineering   \n    Civil Engineering  \n   Computer Science and Engineering \n  Biotechnology Engineering   \n Electrical and Electronics Engineering  \n  Electronics and Communication Engineering \n  Automation and Robotics   \n  Petroleum Engineering    \n  Instrumentation Engineering  \n  Ceramic Engineering   \n  Chemical Engineering  \n  Structural Engineering  \n  Transportation Engineering   \n  Construction Engineering\nPower Engineering\n  Robotics Engineering\n  Textile Engineering\n  Smart Manufacturing & Automation"],
+     "context_set": ""
+    },
+
+
+
+{"tag": "scholorship",
+     "patterns": ["fee excemption", "academic reward", "financial aid", "", "Hey","pay reduction"],
+     "responses": ["We provide a large number of students a wide range of scholorships ranging from 10% to 100% fee excemption.These scholorships are provided to students on the basis of their performance in class 12,JEE percentile and as well as university scholorship test.to apply for scholorship test, kindly visit our official website and apply for the scholorship test so as to grab a tremendous opportunity.  "],
+     "context_set": ""
+    },
+
+
+
+ {"tag": "Safety and hygeine",
+     "patterns": ["hygeine", "safety", "security", "privacy", "Good day", "Whats up"],
+     "responses": ["We provide our students with safe,secure and hygiene environment.we have cctv's installed throughout our campus and have very good arrangement of guards.also we have very clean and green gardens litting the beauty of the campus and which often freshens the minds of the students. "],
+     "context_set": ""
+    },
+
+    {"tag": "Teaching staff",
+        "patterns": ["faculty", "teachers", "Mentors", "Guides of life", "Guru","Adhiyapak"],
+        "responses": ["This college has an excellent teaching faculty with highly qualified and well experienced staff. The teacher student ratio is maintained at 1:10. All teachers are full time and the students are given special attention in their studies. The excellent results in the university examination is due to dedicated, constant effort by staff. The teaching aids used by the staff are modern and helps the students to learn the subject thoroughly. Parents teachers meeting is held periodically after each internal test and students performance is furnished to the parents directly. "],
+        "context_set": ""
+       },
+
+       {"tag": "More about us",
+        "patterns": ["additional information", "our achievements", "our rankings", "our rewards","Rankings"],
+        "responses": ["Dash University, Punjab enjoys high standing among many national rating services that evaluate quality of education, research activity, affordability and athletic excellence. These rankings recognize not only our unicersity as a whole, but also our many respected schools and departments. We are proud to be recognized by the organizations and publications listed below for our excellence in education.Our University has been awarded the prestigious A+ grade by the National Assessment and Accreditation Council (NAAC). The A+ grade has placed Dash University amongst the India’s most elite and prestigious Higher Educational Institutions (HEI) which is maintaining top standards in delivering and disseminating of quality education to its students."],
+        "context_set": ""
+       },
+
+
+       {"tag": "Admission",
+        "patterns": ["Entry", "study", "seat booking", "education chance", "scholor",],
+        "responses": ["Dash University, Punjab  offers Admissions for Engineering, MBA, Film Studies, Optometry, Physiotherapy, Architecture & Design, Business Management, Hotel Management & Tourism, Animation & Multimedia, Bio & Pharma Sciences, Computer Applications, Teachers Training and Research, Legal Studies, Journalism & Mass Communication, Agri Business, Bachelor of Arts (B.A), Yoga studies, Commerce, Interior Design and Specialized programs in association with IBM. for admission,just signup into our website and apply for the admission along with the submission of rupees thousand for security fees.for further inquiry,kindly visit the contacts given below in contact option"],
+        "context_set": ""
+       }
+
+
+      
+]
+}

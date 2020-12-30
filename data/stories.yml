@@ -1,0 +1,106 @@
+version: "2.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: admission
+  steps:
+  - intent: admission_courses
+  - action: utter_admission_courses
+
+- story: engineering
+  steps:
+  - intent: engineering
+  - action: utter_admission_courses
+
+- story: arts
+  steps:
+  - intent: courses_arts
+  - action: utter_admission_courses
+
+- story: science
+  steps:
+  - intent: Courses_Science
+  - action: utter_Courses_Science
+
+- story: extra
+  steps:
+  - intent: extra_info
+  - action: utter_extra_info
+
+- story: staff
+  steps:
+  - intent: teaching_staff
+  - action: utter_teaching_staff
+
+- story: scholarship
+  steps:
+  - intent: scholorship
+  - action: utter_scholorship
+
+- story: safety
+  steps:
+  - intent: safety
+  - action: utter_safety
+
+- story: placement
+  steps:
+  - intent: placements
+  - action: utter_placements
+
+- story: transport
+  steps:
+  - intent: transportation
+  - action: utter_transportation
+
+- story: infra
+  steps:
+  - intent: infrastructure
+  - action: utter_infrastructure
+
+- story: events
+  steps:
+  - intent: events
+  - action: utter_events
+
+- story: medical
+  steps:
+  - intent: medical_facility
+  - action: utter_medical_facility
+
+- story: sport
+  steps:
+  - intent: sports
+  - action: utter_sports
+
+- story: hostel
+  steps:
+  - intent: hostel
+  - action: utter_hostel
+
+- story: library
+  steps:
+  - intent: library
+  - action: utter_library
+
+- story: contact
+  steps:
+  - intent: contact
+  - action: utter_contact
+
+- story: media
+  steps:
+  - intent: social_media
+  - action: utter_social_media
+
+- story: food
+  steps:
+  - intent: food
+  - action: utter_food
+

@@ -1,0 +1,268 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: food
+  examples: |
+    - I am Hungry
+    - tasty food
+    - I want food
+    - do you serve food
+    - cafe coffee day
+    - I want to visit resturant
+    - canteen food
+
+- intent: social_media
+  examples: |
+    - facebook ID
+    - may i get your youtube channel
+    - may i get your instagram official page
+    - are you on twitter
+
+- intent: contact
+  examples: |
+    - how can i contact you?
+    - can i contact you?
+    - give me your contact number?
+    - can i get in touch with you?
+    - i want to enquire something
+    - i want more details about you
+
+- intent: library
+  examples: |
+    - how many books do you have
+    - how big is your library
+    - do you provide notes in library
+    - where is the best place for reading
+
+
+- intent: hostel
+  examples: |
+    - boys and girls hostel
+    - what about living style in hostel
+    - what about the room in the hostel
+    - how many blocks do we have in hostel
+    - how much time do students are allowed get sleep in hostel
+    - how much living area is there in the hostels
+    - what about restrooms 
+
+
+- intent: sports
+  examples: |
+    - can i play sports there?
+    - do you have sport equipments?
+    - do you have a cricket ground?
+    - can i play football there?
+
+
+- intent: medical_facility
+  examples: |
+    - is there a hospital available?
+    - is there medical facility?
+    - can i get medical treatment?
+    - i have a medical condition
+    - do you have doctors on campus?
+    - what if i get injured?
+
+
+- intent: events
+  examples: |
+    - do you organise functions for students
+    - what are the various programs for students
+    - do you arganise extra-curricular activities for students
+    - what type of extracurricular activities are performed for students
+    - what chances are give to students to explore telents in students
+    - do you organise talent hunt competitions
+    - do you conduct conferences
+    - what type of webinars are being organised 
+
+- intent: infrastructure
+  examples: |
+    - how is the infrastructure?
+    - how big is campus?
+    - building quality of university
+    - campus life on university
+
+
+- intent: transportation
+  examples: |
+    - travel facilities
+    - routeway to college
+    - facilities of roadways
+    - what are facilities of vehicles
+    - mobility
+
+
+- intent: placements
+  examples: |
+    - how many students gets placements
+    - do you help students to get job
+    - work i can get
+    - money from jobs
+    - how many companies visit your campus
+    - jobs i can get
+    - field job i can get 
+
+
+- intent: Courses_Science
+  examples: |
+    - do you provide CSE
+    - do you teach coding
+    - what about computer course
+    - maths and logics
+
+
+
+- intent: safety
+  examples: |
+    - how do you make sure we are secure?
+    - tell me about security there?
+    - are there any cctv in university?
+    - how do you protect our privacy?
+    - how is the hygiene maintained?
+
+
+- intent: courses_arts
+  examples: |
+    - how is arts faculty?
+    - are there any workshops for art students?
+    - jobs i can get from pursuing this?
+    - do you teach humanities?
+    - can i major in history and arts?
+    - how do you support arts students?
+
+- intent: engineering
+  examples: |
+    - what can i pursue in PCM
+    - what are subjects in B.tech
+    - B.E.
+    - BE
+    - do you provide engineering
+    - Enigineering
+
+- intent: scholorship
+  examples: |
+    - do you provide any fee excemption
+    - what about academic rewards
+    - any financial aid
+    - can i get any financial aid and help
+    - pay reduction
+
+- intent: teaching_staff
+  examples: |
+    - do you have good faculty?
+    - do you have good enough teachers?
+    - what about mentors
+    - Guides of life
+    - Guru
+
+
+- intent: extra_info
+  examples: |
+    - can we get additional information
+    - what about your achievements
+    - rankings of university
+    - our rewards
+    - Rankings
+
+
+- intent: admission_courses
+  examples: |
+    - what are courses offered here?
+    - how many courses can i take?
+    - do you offer courses on?
+    - tell me about courses
+    - admission in undergraduate level
+    - admission in post draguate level
+    - admissions in ug
+    - admissions in pg
+    - doctoral degrees offered by you

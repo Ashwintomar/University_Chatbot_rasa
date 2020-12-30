@@ -1,0 +1,160 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet
+- goodbye
+- affirm
+- deny
+- mood_great
+- mood_unhappy
+- bot_challenge
+- food
+- social_media
+- contact
+- library
+- hostel
+- placements
+- sports
+- medical_facility
+- events
+- infrastructure
+- transportation
+- Courses_Science
+- safety
+- courses_arts
+- engineering
+- teaching_staff
+- scholorship
+- extra_info
+- admission_courses
+responses:
+  utter_greet:
+  - text: Hey! How are you?
+  utter_cheer_up:
+  - image: https://i.imgur.com/nGF1K8f.jpg
+    text: 'Here is something to cheer you up:'
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_happy:
+  - text: Great, carry on!
+  utter_goodbye:
+  - text: Bye
+  utter_iamabot:
+  - text: I am a bot, made by group 8
+  utter_contact:
+  - text: "T: 1800 1212 88800 \n Email: admissions@cumail.in,\nChandigarh University\
+      \ \t NH-95 Chandigarh-Ludhiana Highway, Mohali, Punjab (INDIA)"
+  utter_social_media:
+  - text: "you can find us on all platforms, please visit https://www.cuchd.in/ for\
+      \ full details/queries\n You can also binge on our youtube channel here : https://www.youtube.com/user/chandigarhuniversity\
+      \ \nFollow us on : \n Facebook https://www.facebook.com/chandigarhuniversitygharuan/\
+      \ \ntwitter : https://twitter.com/Chandigarh_uni?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor\
+      \ \n Instagram: https://www.instagram.com/chandigarhuniversity/?hl=en"
+  utter_food:
+  - text: "Visit our site for info about all the delicacies we cater for you in university\n\
+      https://www.youtube.com/watch?v=TmHB0GWlhl8"
+  utter_sports:
+  - text: All courts are available for sports and games like a basketball court, badminton
+      court, etc. There is a gym in the hostel. There are extreme facilities which
+      encourages students to come up and showcase their talents.
+  utter_library:
+  - text: Our University has 13 libraries - one central library and twelve libraries
+      situated in different academic blocks with a rich collection of more than 85,000
+      books and 850000 of e-books. All libraries have access to e-journals and databases
+      like ASME, IEEE, EMERELD, EBSCO, ASCE, ASTM, McGraw Hill, J-Gate, ELSEVIER,
+      SCC ONLINE and WESTLAW International. It has an institutional membership with
+      DELNET and British Council Library.
+  utter_hostel:
+  - text: Our University campus has separate hostels for boys and girls with an attached
+      mess. All the hostels have basic amenities like water purifiers, common room,
+      gym, salon, recreation room, mess, TV, laundry services, security, and surveillance
+      system.
+  utter_medical_facility:
+  - text: We provide the best health facilities to both our students and our faculty
+      members.we have professional doctors in each field and provide the solution
+      to each and every health probem.we have dispensary open 24*7 for the students.
+  utter_placements:
+  - text: Placements are good and are improving year by year with big packages. The
+      highest package offered was 36 lacs per annum. Big Tech Giants like IBM, Microsoft,
+      Amazon and many more hire students every year. Every year more than 400+ companies
+      come for recruiting
+  utter_infrastructure:
+  - text: Infrastructure is very good and facilities provided  are also excellent.
+      Modern Labs for the respective courses are there to facilitate students. Hostels
+      are maintained on everyday basis. We are provided network facility with good
+      speed in hostels.
+  utter_events:
+  - text: Our University manages conferences, meetings, seminars, and events related
+      to the university students and alumni with automated scheduling, profiling,
+      registration, routing, payments and reminders.
+  utter_transportation:
+  - text: 'This facility is like a lifeline for the university and student safety
+      is their biggest worry. Student bus tracking and Transportation Management System
+      with GPS tracking and RFID technologies enable schools to efficiently manage
+      routes, scheduling, and mileage. '
+  utter_admission_courses:
+  - text: "After completing 12th with science stream, there are a variety of options\
+      \ available for an undergraduate course. Students who have an interest in technical\
+      \ learning, they can choose engineering courses and the rest can choose from\
+      \ the courses listed below:-\n BE/B.Tech- Bachelor of Technology\n B.Arch- Bachelor\
+      \ of Architecture\n BCA- Bachelor of Computer Applications\nB.Sc.- Information\
+      \ Technology\n B.Sc- Nursing\n  BPharma- Bachelor of Pharmacy\n  B.Sc- Interior\
+      \ Design\n BDS- Bachelor of Dental Surgery\n Animation, Graphics and Multimedia\n\
+      \  B.Sc. – Nutrition & Dietetics\n BPT- Bachelor of Physiotherapy\n B.Sc- Applied\
+      \ Geology\n  BA/B.Sc. Liberal Arts\n  B.Sc.- Physics\n  B.Sc. Chemistry\n  B.Sc.\
+      \ Mathematics"
+  utter_engineering:
+  - text: "Science is one of the popular streams offering a wide range of technical\
+      \ courses. Our University is best known for it's engineering section which is\
+      \ provided by world class faculty.Here is the list of UG engineering courses\
+      \ for students who have completed their secondary education in science stream:-\
+      \ \n  Aeronautical Engineering  \n    Automobile Engineering   \n    Civil Engineering\
+      \  \n   Computer Science and Engineering \n  Biotechnology Engineering   \n\
+      \ Electrical and Electronics Engineering  \n  Electronics and Communication\
+      \ Engineering \n  Automation and Robotics   \n  Petroleum Engineering    \n\
+      \  Instrumentation Engineering  \n  Ceramic Engineering   \n  Chemical Engineering\
+      \  \n  Structural Engineering  \n  Transportation Engineering   \n  Construction\
+      \ Engineering\nPower Engineering\n  Robotics Engineering\n  Textile Engineering\n\
+      \  Smart Manufacturing & Automation"
+  utter_scholorship:
+  - text: 'We provide a large number of students a wide range of scholorships ranging
+      from 10% to 100% fee excemption.These scholorships are provided to students
+      on the basis of their performance in class 12,JEE percentile and as well as
+      university scholorship test.to apply for scholorship test, kindly visit our
+      official website and apply for the scholorship test so as to grab a tremendous
+      opportunity.  '
+  utter_safety:
+  - text: "We provide our students with safe,secure and hygiene environment.we have\
+      \ cctv's installed throughout our campus and have very good arrangement of guards.also\
+      \ we have very clean and green gardens litting the beauty of the campus and\
+      \ which often freshens the minds of the students. "
+  utter_teaching_staff:
+  - text: 'This college has an excellent teaching faculty with highly qualified and
+      well experienced staff. The teacher student ratio is maintained at 1:10. All
+      teachers are full time and the students are given special attention in their
+      studies. The excellent results in the university examination is due to dedicated,
+      constant effort by staff. The teaching aids used by the staff are modern and
+      helps the students to learn the subject thoroughly. Parents teachers meeting
+      is held periodically after each internal test and students performance is furnished
+      to the parents directly. '
+  utter_extra_info:
+  - text: Adarsh University, Punjab enjoys high standing among many national rating
+      services that evaluate quality of education, research activity, affordability
+      and athletic excellence. These rankings recognize not only our unicersity as
+      a whole, but also our many respected schools and departments. We are proud to
+      be recognized by the organizations and publications listed below for our excellence
+      in education.Our University has been awarded the prestigious A+ grade by the
+      National Assessment and Accreditation Council (NAAC). The A+ grade has placed
+      Dash University amongst the India’s most elite and prestigious Higher Educational
+      Institutions (HEI) which is maintaining top standards in delivering and disseminating
+      of quality education to its students.
+  utter_Courses_Science:
+  - text: University Institute of Sciences (UIS) creates a pool of intellectual thinkers
+      and influential leaders in the field of Science & Technology. The department
+      has set a milestone in delivering academic & research excellence since inception.
+      The University runs a separate department of Sciences and offers foundation
+      courses in Physics, Chemistry, Medical, Non-Medical & Mathematics. Our outcome
+      based academic model comprising of theoretical work, research projects, seminars,
+      resource learning, hands-on laboratory work, and the idyllic approach of imparting
+      fundamentals reinforces the capabilities of the students.

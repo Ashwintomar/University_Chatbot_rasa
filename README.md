@@ -16,14 +16,21 @@ To set up and run the chatbot locally, follow these steps:
    ```bash
    git clone https://github.com/Ashwintomar/University_Chatbot_rasa.git
    cd University_Chatbot_rasa
+   ```
 # Install Dependencies:
-- pip3 install rasa
+   ```bash
+   pip3 install rasa
+   ```
 
 # Training the Chatbot:
-- rasa train
+   ```bash
+   rasa train
+   ```
 
 # Run the Chatbot:
-- rasa run -m models --enable-api --cors "*"
+   ```bash
+   rasa run -m models --enable-api --cors "*"
+   ```
 
 # License
 This project is licensed under the MIT License.
